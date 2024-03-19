@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Unit 5 Review Page</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="icon" href="pixelheart.png" type="image/icon">
+  
+</head>
+
+<body>
+  
+<div class="header">
+    <img class="heart" src="pixelheart.png">
+    <a class>     </a>
+    <a>-</a>
+    <a class="active" href="index.html">HOME</a>
+    <img class="heart" src="pixelheart.png">
+  </div>
+
+<div class="menu">
+    MENU
+  <a href="listsmake.html">LISTS MAKE</a>
+  <a href="loopsmake.html">LOOPS MAKE</a>
+  <a href="traversalsmake.html">TRAVERSALS MAKE</a>
+  <a href="hackathon.html">HACKATHON</a>
+</div>
+
+    
+<div class="heading">
+  
+  <h1>Thomas A. Edison CTE High School</h1>
+  <h2>Web Development Shop Class</h2>
+  <h4>Unit 5 Review || Review Page</h4>
+  <h5>Maru Puran / 03.16.2023</h5>
+
+</div>
+  
+<br><br>
+
+<div class="container">
+  <div class="wave" id="L1"> 
+    Lesson 1 
+    <br><br>
+    In this lesson, we learned how variables can store lists of information and the benefits of it.
+    <br><br>
+    var myNumbers = [32, 64, 33, 0, 15, 26, 3]
+    <br><br>
+    myNumbers[4] = 15
+    <br>
+    myNumbers[0] = 32
+    <br>
+    myNumbers[3] = 0
+    <br>
+    myNumbers[1] = 64
+  </div>
+  <div class="wave" id="L2"> 
+    Lesson 2 
+    <br><br>
+    In this lesson we learned about how lists are used and how they can be created.
+    <br><br>
+    There is no CFU.
+  </div>
+  <div class="wave" id="L3"> 
+    Lesson 3 
+    <br><br>
+    In this lesson, we practiced going through programs that used lists and understanding how they worked.
+    <br><br>
+    What will be displayed after this code segment is run?
+    <br><br>
+    gems = ["Ruby", "Sapphire", "Garnet"]
+    <br>
+    gems = [Opal", "Emerald"]
+    <br>
+    displayGems[2]
+    <br><br>
+    "Emerald" is displayed.
+    <br><br>
+    luckyNumbers = [15, 33, 25]
+    <br>
+    insert(luckyNumbers,2,13)
+    <br>
+    append(luckyNumbers,3)
+    <br>
+    remove(luckyNumbers,1)
+    <br>
+    display(length, luckyNumbers)
+    <br><br>
+    4 is displayed.
+  </div>
+  <div class="wave" id="L4"> 
+    Lesson 4 
+    <br><br>
+    In this lesson we made an app that uses lists and programming patterns, the purpose of which to store reminders.
+    <br><br>
+    You can find this app in the menu.
+  </div>
+  <div class="wave" id="L5"> 
+    Lesson 5
+    <br><br>
+    In this lesson, we were introduced to loops and a general idea of how they work.
+    <br><br>
+    There is no hard-and-fast rule as to which is better, but what do you think? What kinds of circumstances would lead you to writing a function versus using a loop?
+    <br><br>
+    I would probably use a loop when I don't know how many times I need a function to be repeated, or when I would have to place multiple of the same functions in a row.
+  </div>
+  <div class="wave" id="L6"> 
+    Lesson 6
+    <br><br>
+    In this lesson, we studied different apps that contained loops and triedt to understand how they work.
+    <br><br>
+    Think back on the Font Tester App. Can you think of an example of another app or feature of an app which would use a loop to control different elements on a screen?
+    <br><br>
+    One feature of an app that might use a loop to control different elements on the screen is when there's an option for the user to increase the size of something such as the font of a webpage.
+  </div>
+  <div class="wave" id="L7"> 
+    Lesson 7
+    <br><br>
+    In this lesson, we put our knowledge to the test and tried to program with loops to gain practice.
+    <br><br>
+    count = 0
+    <br>
+    repeat until (count=3){
+    <br>
+    count = count + 1
+    <br>
+    display "and"
+    <br>
+    display "count"
+    <br>
+    }
+    <br><br>
+    "and 1 and 2 and 3" is displayed.
+    <br><br>
+    a = 0
+    <br>
+    repeat 3 times{
+    <br>
+    a = a + 1
+    <br>
+    display a
+    <br>
+    a = a + 1
+    <br>
+    }
+    <br><br>
+    "1 3 5" is displayed.
+  </div>
+  <div class="wave" id="L8"> 
+    Lesson 8
+    <br><br>
+    In this lesson, we tried using loops in order to create a program that randomizes shapes, color, and size.
+    <br><br>
+    You can find this app in the menu.
+  </div>
+  <div class="wave" id="L9"> 
+    Lesson 9
+    <br><br>
+    In this lesson, we learned about what traversing meant and how computers can do it through the usage of loops.
+    <br><br>
+    There is no CFU.
+  </div>
+  <div class="wave" id="L10"> 
+    Lesson 10 
+    <br><br>
+    In this lesson, we took a look at apps that use loops to traverse in order to gain an understanding of different ways traversals are used.
+    <br><br>
+    Explain how you would filter the dog dataset using traversal to have a filtered list of dogs who live long lives.
+    <br><br>
+    First, you would set a list up to have the information of the length of the dogs' lives as well as their names. You can get this information from the dog dataset by setting up a list to take the column of "maximum lifespan" and "names". You would also set up a list for the filtered dog names. Then, you would set up a regular for loop for a transversal where the index is equal to 0 and less than the length of the list (list.length), and that 1 is added to the index each time the loop runs. Inside this loop, you can set a prerequisite in order to filter out the longer lives successfully. For example, you can have a conditional like "if dogYears >= 14". Inside that conditional, you can use "appendItem" from the dogNames list to the filtered list, meaning that the name of the dog meeting the lifespan requirement is added to the other list containing the dog name by using "i" as an index. This can keep going through the list and filtering through it.
+  </div>
+  <div class="wave" id="L11"> 
+    Lesson 11
+    <br><br>
+    In this lesson, we went through different codes and altered them while attempting to understand them in order to better understand how traversals work alongside loops.
+    <br><br>
+    studentScores = [77, 32, 45, 92, 86]
+    <br>
+    updatedScores = []
+    <br>
+    for each item in studentScores{
+    <br>
+    if (item > 60){
+    <br>
+    append(updatedScores, item + 5)
+    <br>
+    } else {
+    <br>
+    append(updatedScores, 0)
+    <br>
+    }
+    }
+    <br><br>
+    [82,0,0,97,91] is stored in updatedScores after running the code.
+  </div>
+  <div class="wave" id="L12"> 
+    Lesson 12 
+    <br><br>
+    In this lesson, we attempted to make an app that randomly tells you the forecast of a specific place by using lists, traversals, and loops.
+    <br><br>
+    You can find this app in the menu.
+  </div>
+  <div class="wave" id="L13"> 
+    Lesson 13-17 
+    <br><br>
+    In this lesson, we paired up into groups and tried to create an app that fit all the requirements of lists, functions, screens, and more.
+    <br><br>
+    You can find this app in the menu.
+  </div>
+</div>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+html, body{
+  text-align: center;
+  font-family: cursive;
+  background: linear-gradient(#fff,#ffdbe6);
+  background-attachment: fixed;
+  font-size: 14px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.heart{
+  width: 20px;
+}
+
+.heading{
+  color: #ffa8c7;
+  background: center fixed #ffebf3;
+  padding: 20px 20px;
+  width: 600px;
+  margin: auto;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+}
+
+h2{
+  color: #ff3d8b;
+}
+
+
+.header{
+  overflow: hidden;
+  background: center fixed #ffb3d1;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+}
+
+.header a{
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.container{
+  color: #ffffff;
+  background: center fixed #ffebf3;
+  padding: 20px 40px;
+  margin: auto;
+  width: 800px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+}
+
+.wave{
+  background: center fixed #ffb3d1;
+  overflow: hidden;
+  display: block;
+  margin: 10px;
+  height: 20px;
+  position: relative;
+  transition: height 2s;
+  box-shadow: 1px 1px 1px 1px #ff99bd;
+}
+
+#L1:hover{
+  height: 200px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L2:hover{
+  height: 100px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L3:hover{
+  height: 380px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L4:hover{
+  height: 150px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L5:hover{
+  height: 200px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L6:hover{
+  height: 200px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L7:hover{
+  height: 410px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L8:hover{
+  height: 100px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L9:hover{
+  height: 130px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L10:hover{
+  height: 370px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L11:hover{
+  height: 300px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L12:hover{
+  height: 150px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L13:hover{
+  height: 130px;
+  top: 1px;
+  z-index: 1;
+}
+
+.textContainer{
+  color: #fffafc;
+  background: fixed rgba(1,39,126,0.8);
+  padding: 20px 40px;
+  width: 115px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+  float: right;
+  margin: -2.5% 55%;
+  position: absolute;
+  z-index: 2;
+}
+
+.menu{
+  position: absolute;
+  top: 24px;
+  color: #fff;
+  left: 775px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.menu a{
+  color: #f9ebf4;
+  background-color: #ff3d8b;
+  padding: 1px;
+  display: none;
+  font-size: 13px;
+}
+
+.menu:hover a{
+  display: block;
+}
+
+.menu a:hover{
+  background-color: #fff;
+  color: #ff3d8b;
+}
+
+img{
+  width: 500px;
+}
+
+.img1{
+  background: fixed #ffa8c7;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+  padding: 40px 40px;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+
+.img2{
+  background: fixed #ffa8c7;
+  box-shadow: 1px 1px 1px 1px #ff4d8b;
+  padding: 40px 40px;
+  position: absolute;
+  right: 50px;
+  top: 150px;
+}
